@@ -1,0 +1,237 @@
+﻿
+/*******      IMPORT CUSTOM FONTS      *******/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url('../custom-fonts/OpenSans-Light_0.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../custom-fonts/OpenSans-Regular_0.ttf');
+    font-style: normal;
+}
+
+.img-center-responsive { margin: 0 auto; }
+
+body 
+{
+    
+}
+
+h1
+{
+    line-height: 1.5em;
+}
+
+/*******      NAVBAR      *******/
+
+#header
+{
+    
+}
+
+.icon-bar 
+{
+    border:1px solid #d95c5c;
+}
+
+.navbar {
+    margin-bottom: 0;
+    z-index: 9999;
+    border: 0;
+    font-family: Open Sans Light, Open Sans;
+    font-size: 12px !important;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    border-radius: 0;
+    background-color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+/*Allows for the logo to be inline with the store name*/
+.navbar-header p {
+	display: inline;
+}
+
+.navbar-header .img-responsive {
+	display: inline;
+}
+/*Both are necessary to achieve this*/
+
+
+.navbar li a, .navbar .navbar-brand {
+    color: #000 !important;
+    padding-top: 35px;
+}
+
+.navbar-nav li a:hover {
+    color: #d95c5c !important;
+    background-color: transparent;
+}
+
+.navbar .glyphicon
+{
+    color: #d95c5c;
+    background-color: transparent;
+    font-size: 14px;
+    padding-right: 5px;
+}
+
+.navbar .glyphicon:hover
+{
+    color: #0aabb1;
+}
+
+.navbar #mnu-login
+{
+    color: #0aa4a4 !important;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+
+
+/*******      BANNER Section     *******/
+
+#banner
+{
+    padding-left:0px;
+    padding-right: 0px;
+    padding-top: 85px;
+    background-color: #fff;    
+    
+}
+
+
+/*******      MENUs Section     *******/
+
+#menus
+{
+    padding-top: 30px;
+    background-color: #fff;    
+}
+
+.head
+{
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 10px;
+    color: #6f6e6e;
+}
+
+.content
+{
+    font-size: 13px;
+    line-height: 1.2em;
+    text-transform:none !important;
+    font-weight: normal !important;
+    font-style: italic;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    text-align: center;
+    padding-top: 0px;
+    color: #999898;
+}
+
+.rate
+{
+    font-size: 18px;
+    font-weight: 600;
+    color: #d95c5c;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+/*******      DETAIL Section     *******/
+
+#detail
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #eee;
+}
+
+
+/*******      PLAIN Section     *******/
+
+#plain
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#plain p
+{
+    font-family: Open Sans Light;
+    font-size: 17px;
+    line-height: 2em;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+
+/*******      FOOTER Section     *******/
+
+#footer
+{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background-color: #444;
+    border-top: 5px solid #d95c5c;
+    text-align: center;
+}
+
+#footer .mnu-head
+{
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #898787;
+    text-align: left;
+}
+
+#footer .content
+{
+    color: #908f8f;
+    line-height: 0.8em;
+    text-align: left;
+    padding:0px;
+}
+
+#footer img
+{
+    padding-bottom: 30px;
+}
+
+
+#footer .fa
+{
+    font-size: 18px;
+    color: #908f8f;
+    line-height: 2em;
+    padding-left: 20px;
+}
+
+#footer .fa:hover
+{
+    text-decoration: none;
+    color: #eee;
+}
+
